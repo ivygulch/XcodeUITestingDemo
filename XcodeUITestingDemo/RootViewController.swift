@@ -55,6 +55,14 @@ class RootViewController: UITableViewController {
         self.tableView.reloadData()
     }
 
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+
+        if let autoSegueID = NSProcessInfo.processInfo().valueForEnvironmentKey("autoSegueID") {
+            performSegueWithIdentifier(autoSegueID, sender: self)
+        }
+    }
+
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tableRows.count
     }

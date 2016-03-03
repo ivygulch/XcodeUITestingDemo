@@ -40,4 +40,16 @@ class RootViewControllerTests: XCTestCase {
         app.terminate()
     }
 
+    func testUseLaunchEnvironmentVariables() {
+        let app = XCUIApplication()
+        app.launchEnvironment = ["autoSegueID":"labelVCID"]
+        app.launch()
+
+        XCTAssert(app.navigationBars["LabelViewController"].exists)
+
+        NSThread.sleepForTimeInterval(5)
+
+        app.terminate()
+    }
+
 }

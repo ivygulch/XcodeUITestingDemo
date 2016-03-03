@@ -14,6 +14,7 @@
 		F874D6031C88CEC100027043 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD5CC11C88C2D80036EDD0 /* LabelViewController.swift */; };
 		F874D6061C88E00C00027043 /* XCTestCaseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874D6051C88E00C00027043 /* XCTestCaseExtensions.swift */; };
 		F874D6081C88E07F00027043 /* RootViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874D6071C88E07F00027043 /* RootViewControllerTests.swift */; };
+		F8C4E8491C88E652004E6AAF /* NSProcessInfoExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C4E8481C88E652004E6AAF /* NSProcessInfoExtensions.swift */; };
 		F8DD5C941C88C0CF0036EDD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD5C931C88C0CF0036EDD0 /* AppDelegate.swift */; };
 		F8DD5C991C88C0CF0036EDD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DD5C971C88C0CF0036EDD0 /* Main.storyboard */; };
 		F8DD5C9B1C88C0CF0036EDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DD5C9A1C88C0CF0036EDD0 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		F874D6051C88E00C00027043 /* XCTestCaseExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestCaseExtensions.swift; sourceTree = "<group>"; };
 		F874D6071C88E07F00027043 /* RootViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewControllerTests.swift; sourceTree = "<group>"; };
+		F8C4E8481C88E652004E6AAF /* NSProcessInfoExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSProcessInfoExtensions.swift; sourceTree = "<group>"; };
 		F8DD5C901C88C0CF0036EDD0 /* XcodeUITestingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeUITestingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DD5C931C88C0CF0036EDD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8DD5C951C88C0CF0036EDD0 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				F8DD5C9A1C88C0CF0036EDD0 /* Assets.xcassets */,
 				F8DD5C9C1C88C0CF0036EDD0 /* LaunchScreen.storyboard */,
 				F8DD5C9F1C88C0CF0036EDD0 /* Info.plist */,
+				F8C4E8481C88E652004E6AAF /* NSProcessInfoExtensions.swift */,
 			);
 			path = XcodeUITestingDemo;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F874D6011C88CEC100027043 /* TextFieldViewController.swift in Sources */,
+				F8C4E8491C88E652004E6AAF /* NSProcessInfoExtensions.swift in Sources */,
 				F874D5FE1C88CEC100027043 /* RootViewController.swift in Sources */,
 				F8DD5C941C88C0CF0036EDD0 /* AppDelegate.swift in Sources */,
 				F874D6031C88CEC100027043 /* LabelViewController.swift in Sources */,
